@@ -1,0 +1,159 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+// HEADER==========================================================
+.header{
+    .header-el{
+        width: auto !important;
+    }
+    background-color: #FFC996;
+    .social-icon {
+        width: 20%;
+        justify-content: left !important;
+        a{
+            margin-right:20px;
+            svg{
+                transition: 0.3s linear;
+                fill: rgb(65, 65, 65);
+            }
+            &:hover{
+                svg{
+                    transform: translateX(8px);
+                }
+            }
+        }
+    }
+    .navigation{
+        width: 50%;
+        justify-content: space-around;
+        .row{
+            a{
+                color: black;
+                font-weight: 500;
+                transition: 0.3s linear;
+                &:hover{
+                    color: rgb(254, 254, 254);
+                }
+            }
+            img{
+                width: 24vw;
+                height: auto;
+            }
+            svg{
+                width: 24px;
+            }
+        }
+
+    }
+    .cart-icon{
+        width: 30%;
+        justify-content: right;
+        .cart{
+            position: relative;
+            margin-right: 25px;
+            span{
+                position: absolute;
+                top: -7px;
+                right: -7px;
+                width: 22px;
+                height: 22px;
+                background-color: red;
+                line-height: 18px;
+                color: white;
+                border-radius: 99px;
+                text-align: center;
+                border: 2px solid #FFC996;
+            }
+        }
+        .user{
+            .i_user_option{
+                background-color: transparent !important;
+                border-color: transparent !important;
+                &:focus{
+                    box-shadow:none !important;
+                }
+            }
+        }
+    }
+}
+// CATEGORY==========================================================
+
+.category{
+    height: 100px;
+    background-color: #F4A548;
+    align-content: center;
+    justify-content: center;
+    a.nav-link{
+        color: black;
+        font-size: 23px;
+        font-weight: 600;
+        transition: 0.3s ease-out;
+        border: 1px solid rgba(0, 0, 0, 0.378);
+        &:hover{
+            transform: translateY(8px);
+            box-shadow: 8px -8px 0 rgba(0, 0, 0, 0.378);
+        }
+    }
+    .nav-item{
+        margin: 0 20px;
+    }
+}
+
+
+// FOOTER==========================================================
+    
+.footer{
+    margin-top: 20px;
+    background-color: #F4A548;
+    color: white;
+    font-size: 10px;
+    .footer-box{
+        max-width: 100% !important;
+        .footer-sub{
+            width: 20%;
+            margin: 15px;
+        }
+        .footer-sub-1{
+            img{
+                width: 90%;
+                margin-bottom: 20px;
+            }
+            p{
+                text-align: justify;
+            }
+        }
+        .footer-sub-2{
+            >div>div{
+                width: 100px;
+                >div{
+                    margin-bottom: 7px;
+                }
+            }
+            img{
+                margin-right: 8px;
+            }
+            .social-icon{
+                width:  150px !important;
+                a{
+                    svg{
+                        fill: white;
+                    }
+                }
+            }
+        }
+        .footer-sub-4{
+            .h6{
+                margin-top: 1rem;
+            }
+            p{
+                margin-bottom: 0.4rem;
+            }
+        }
+        .footer-sub-5{
+            img{
+                width: 30px;
+                height: auto;
+                margin-right: 15px;
+            }
+        }
+    }
+}
