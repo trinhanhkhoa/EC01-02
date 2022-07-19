@@ -74,6 +74,9 @@
             }
         }
     }
+    .dropdown-menu{
+        border: none !important;
+    }
 }
 // CATEGORY==========================================================
 
@@ -155,5 +158,63 @@
                 margin-right: 15px;
             }
         }
+    }
+}
+
+//LOGIN Page==========================================================
+.login{
+}
+
+.login-form{
+    max-width: 400px !important;
+    h1{
+        text-align: center;
+        margin-top: 20px;
+    }
+    #sign-in-button{
+        width: 160px;
+        background-color: #F99D31 ;
+        border: none;
+        margin: 0 auto;
+        &:hover{
+            background-color: #ff8e0e;
+        }
+    }
+}   
+.bottom-login,.top-login{
+    width: 100%;
+    height: 90px;
+    color: white;
+    background-color: #15133C;
+}
+.top-login{
+    text-align: center;
+    h1{
+        line-height: 90px;
+    }
+}
+
+.logo-main{
+    width: 200px;
+    height: 200px;
+}
+.bottom-login{
+    position: fixed;
+    bottom: 0;
+    font-size: small;
+    .left{
+        margin-left: 20px;
+        span{
+            display: inline-flex;
+            align-items: center;
+        }
+    }
+    .right{
+        margin-right: 20px;
+    }
+    color: rgba(255, 255, 255, 0.5);
+    svg{
+        fill: rgba(255, 255, 255, 0.5);
+        margin: 0 8px;
     }
 }
