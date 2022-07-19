@@ -3,6 +3,7 @@ E-Commerce course
 
 Step 1:
   npm init -y
+  
 Step 2:
   npm install react-bootstrap react react-dom react-router-dom react-scripts sass
   
